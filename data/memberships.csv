@@ -1,0 +1,5 @@
+﻿membership_id,member_id,type,start_date,end_date,status
+1,1,Standard,2024-01-01,2025-01-01,Inactive
+2,2,Premium,2024-06-15,2025-06-15,Active
+3,3,Standard,2024-03-20,2025-03-20,Active
+4,5,Premium,2024-05-10,2025-05-10,Active

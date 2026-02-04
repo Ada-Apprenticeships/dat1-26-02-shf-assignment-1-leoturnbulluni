@@ -1,0 +1,5 @@
+﻿staff_id,first_name,last_name,email,phone_number,position,hire_date,location_id
+1,James,Bond,james.bond@fittrackpro.com,"07007 007007",Manager,2022-01-01,1
+2,Ivy,Irwin,ivy.irwin@fittrackpro.com,"07123 456789",Trainer,2023-05-15,1
+3,Sarah,Connor,sarah.connor@fittrackpro.com,"07999 888777",Receptionist,2023-08-01,1
+4,Lara,Croft,lara.croft@fittrackpro.com,"07555 444333",Trainer,2023-09-10,2

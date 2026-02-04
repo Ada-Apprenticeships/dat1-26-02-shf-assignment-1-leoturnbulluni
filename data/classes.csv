@@ -1,0 +1,4 @@
+﻿class_id,name,description,capacity,duration,location_id
+1,"Spin Class","High intensity indoor cycling",20,45,1
+2,"Yoga Basics","Beginner level yoga",15,60,1
+3,HIIT,"High Interval Intensity Training",10,30,2

@@ -1,0 +1,5 @@
+﻿equipment_id,name,type,purchase_date,last_maintenance_date,next_maintenance_date,location_id
+1,"Treadmill 2000",Cardio,2023-01-15,2024-12-15,2025-01-15,1
+2,"Elliptical Trainer",Cardio,2023-02-20,2024-07-20,2025-02-20,1
+3,"Smith Machine",Strength,2023-03-10,2024-03-10,2025-03-10,1
+4,"Dumbbell Set",Strength,2023-04-05,2024-04-05,2025-04-05,2

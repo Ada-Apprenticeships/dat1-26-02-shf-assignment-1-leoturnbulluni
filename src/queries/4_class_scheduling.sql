@@ -48,7 +48,7 @@ JOIN class_schedule cs ON cs.class_id = c.class_id
 JOIN class_attendance ca ON ca.schedule_id = cs.schedule_id AND ca.attendance_status = 'Registered'
 GROUP BY c.class_id
 ORDER BY registration_count DESC -- order from 'most popular' to 'least popular' by reg count
-LIMIT 3;
+LIMIT 5; -- chose to show up to 5 most popular - otherwise all will be shown
 
 -- 4.6 
 SELECT AVG(count) AS average_classes_per_member

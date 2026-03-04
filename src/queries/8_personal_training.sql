@@ -8,6 +8,6 @@ SELECT pts.session_id,
 	pts.start_time,
 	pts.end_time
 FROM personal_training_sessions pts
-JOIN staff s ON s.staff_id = pts.staff_id --        combine with staff table (to find trainer name)
-JOIN members m ON m.member_id = pts.member_id --    combine with members table (to access member names)
+JOIN staff s ON s.staff_id = pts.staff_id		-- combine with staff table (to find trainer name)
+JOIN members m ON m.member_id = pts.member_id 	-- combine with members table (to access member names)
 WHERE s.first_name = 'Ivy' AND s.last_name = 'Irwin';

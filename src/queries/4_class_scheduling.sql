@@ -10,8 +10,8 @@ JOIN staff s ON s.staff_id = cs.staff_id;          -- ...and respective staff
 
 -- 4.2 
 SELECT cs.schedule_id, c.name, cs.start_time, cs.end_time,
-	   (c.capacity - IFNULL(reg.registered_count, 0)) AS available_spots
-       -- IFNULL ensures that if the registered count is unset, 0 is a faalback
+	(c.capacity - IFNULL(reg.registered_count, 0)) AS available_spots
+	-- IFNULL ensures that if the registered count is unset, 0 is a faalback
 FROM class_schedule cs
 JOIN classes c ON c.class_id = cs.class_id
 LEFT JOIN ( -- left join needed otherwise empty classes would not show

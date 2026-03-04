@@ -52,7 +52,7 @@ LIMIT 3;
 
 -- 4.6 
 SELECT AVG(count) AS average_classes_per_member
-FROM (
+FROM ( -- no WHERE, use a custom datsaet directly in the FROM
 	SELECT member_id, COUNT(*) AS count
 	FROM class_attendance
 	WHERE attendance_status IN ('Registered', 'Attended') -- registered OR attended - both count
